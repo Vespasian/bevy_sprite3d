@@ -15,5 +15,5 @@ default-features = false
 features = ["bevy_asset", "bevy_pbr", "bevy_sprite"]
 
 [dev-dependencies]
-bevy.version = "0.12" # (include default features when running examples)
+bevy.git = "https://github.com/bevyengine/bevy"
 rand = "0.8"
