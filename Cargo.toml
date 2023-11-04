@@ -10,10 +10,10 @@ repository = "https://github.com/FraserLee/bevy_sprite3d"
 keywords = ["gamedev", "bevy", "sprite", "3d"]
 
 [dependencies.bevy]
-git = "https://github.com/bevyengine/bevy"
+version = "0.12.0"
 default-features = false
 features = ["bevy_asset", "bevy_pbr", "bevy_sprite"]
 
 [dev-dependencies]
-bevy.git = "https://github.com/bevyengine/bevy"
+bevy.version = "0.12.0"
 rand = "0.8"
